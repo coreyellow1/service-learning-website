@@ -1,3 +1,3 @@
 # service-learning-website
 
-This is a test website and testing the conflicts
+This is a test website modified by Lance.
