@@ -4,6 +4,27 @@ body {
     margin-right: 10%;
 }
 
+.content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
 h1 {
-    font-family: Georgia;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: #0d6efd;
+    break-after: always;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: large;
+    color: black;
+    break-after: always;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
