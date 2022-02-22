@@ -1,7 +1,5 @@
 body {
     background-color: whitesmoke;
-    margin-left: 10%;
-    margin-right: 10%;
 }
 
 .content {
@@ -28,3 +26,45 @@ p {
     margin-left: 20px;
     margin-bottom: 20px;
 }
+
+h1.main {
+    padding-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 400%;
+    color: #0d6efd;
+    break-after: always;
+    text-align: center;
+}
+
+p.main {
+    padding-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    color: black;
+    break-after: always;
+    text-align: center;
+    margin-left: 0px;
+}
+
+div.main {
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+footer {
+    background-color: #0d6efd;
+}
+
+@media screen and (max-width: 800px) {
+    .center {
+      width: 100%;
+    }
+  }
