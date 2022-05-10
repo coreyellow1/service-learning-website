@@ -1,7 +1,13 @@
 body {
     background-color: whitesmoke;
-    margin-left: 10%;
-    margin-right: 10%;
+}
+
+body.main {
+    background-color: #0d6efd;
+    background-image: url(images/classroom2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .content {
@@ -28,3 +34,52 @@ p {
     margin-left: 20px;
     margin-bottom: 20px;
 }
+
+h1.main {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 600%;
+    color: #0d6efd;
+    text-shadow: -1px 1px 0 #000,
+                 1px 1px 0 #000,
+                 1px -1px 0 #000,
+                 -1px -1px 0 #000;
+    break-after: always;
+    text-align: center;
+}
+
+p.main {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+    color: white;
+    text-shadow: -1px 1px 0 #000,
+                 1px 1px 0 #000,
+                 1px -1px 0 #000,
+                 -1px -1px 0 #000;
+    break-after: always;
+    text-align: center;
+    margin-left: 0px;
+}
+
+div.main {
+    margin-top: 17%;
+    align-items: center;
+    justify-content: center;
+}
+
+.background {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+footer {
+    background-color: #0d6efd;
+}
+
+@media screen and (max-width: 800px) {
+    h1.main {
+        font-size: 400%;
+    }
+  }
