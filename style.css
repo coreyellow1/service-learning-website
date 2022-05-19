@@ -24,7 +24,7 @@ h1 {
     text-align: center;
     color: #0d6efd;
     break-after: always;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 p {
@@ -65,7 +65,7 @@ p.main {
 }
 
 div.main {
-    margin-top: 17%;
+    margin-top: 15%;
     align-items: center;
     justify-content: center;
 }
@@ -81,8 +81,41 @@ footer {
     background-color: #0d6efd;
 }
 
+button.video-dropdown {
+    border-radius: 10px;
+	display: inline-block;
+	cursor: pointer;
+    font-size: 28px;
+	padding: 5px 20px;
+	text-decoration: none;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+iframe.video {
+    height: 720px;
+    width: 1280px;
+}
+
 @media screen and (max-width: 800px) {
     h1.main {
         font-size: 400%;
+    }
+
+    iframe.video {
+        height: 180px;
+        width: 320px;
+    }
+
+    .content {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .video-section {
+        align-items: center;
+        justify-content: center;
     }
   }
